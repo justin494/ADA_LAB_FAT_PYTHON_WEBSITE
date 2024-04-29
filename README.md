@@ -4,7 +4,7 @@ LAB FAT EXAM GITHUB WORKFLOWS &amp; CI/CD PIPELINE
 Link of the website: https://justin494.github.io/ADA_LAB_FAT_PYTHON_WEBSITE/
 
 # YAML File workflow code:
-
+```
 name: Pylint
 
 on: [push]
@@ -28,3 +28,4 @@ jobs:
     - name: Analysing the code with pylint
       run: |
         pylint $(git ls-files '*.py')
+```
