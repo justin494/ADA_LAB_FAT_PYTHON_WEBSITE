@@ -29,6 +29,9 @@ jobs:
       run: |
         pylint $(git ls-files '*.py')
 ```
+* Output after running the pylint.yml file
+  
+![WORKFLOW](https://github.com/justin494/ADA_LAB_FAT_PYTHON_WEBSITE/assets/78421431/1f6bb9d9-179f-4556-9a63-969a7fcb5f50)
 
 # CI/CD pipeline steps
 
